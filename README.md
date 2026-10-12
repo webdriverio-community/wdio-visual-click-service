@@ -1,5 +1,10 @@
 # 📸 Image Selector Service
 
+> [!IMPORTANT]
+> **This repository does not support WebdriverIO v10.** It stays in maintenance mode for WebdriverIO v9 only.
+>
+> It gets no new features. Only critical fixes for WebdriverIO v9 are possible.
+
 A WebdriverIO service that allows you to locate and click on-screen elements by matching them against a reference image.
 
 Supports both OpenCV-based matching (for high-performance template matching) and a fallback engine using pixelmatch and Jimp.
